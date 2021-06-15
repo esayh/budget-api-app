@@ -1,0 +1,33 @@
+{
+  "name": "budget-api-app",
+  "version": "1.0.0",
+  "description": "Budgeting-app API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esayh/budget-api-app.git"
+  },
+  "keywords": [
+    "express",
+    "api",
+    "budget",
+    "budgeting"
+  ],
+  "author": "Esay H",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esayh/budget-api-app/issues"
+  },
+  "homepage": "https://github.com/esayh/budget-api-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "engines" : {
+    "node" : "15.10.0"
+  }
+}
