@@ -2,12 +2,14 @@
 const express = require('express')
 const cors = require('cors')
 const app = express()
+const transactionsController = require('./controller/transactionsController')
 
 
 
 //Middleware
-app.use(express.json())
 app.use(cors())
+app.use(express.json())
+app.use('/transactions', transactionsController)
 
 app.use((req, res, next) => {
   console.log(`[development] middleware running.`)

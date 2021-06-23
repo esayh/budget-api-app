@@ -8,7 +8,7 @@ transactions.get('/', (req, res) => {
 
 transactions.get('/:index', (req, res) => {
 	const { index } = req.params
-	if (transactions[index]) {
+	if (transactionsArr[index]) {
 		res.status(200).json(transactionsArr[index])
 	} else {
 		res.redirect('/404')
